@@ -1,10 +1,10 @@
-🏨 API de Reservas Hoteleras
+# 🏨 API de Reservas Hoteleras
 Este proyecto consiste en el desarrollo de una API REST Backend con Node.js y Express para la gestión de reservas hoteleras.
 La aplicación permite realizar operaciones CRUD completas, junto con múltiples filtros de búsqueda para facilitar la administración de reservas.
 Las reservas se almacenan en un archivo JSON local, actuando como base de datos temporal.
 Además, la API está documentada mediante Swagger (OpenAPI) para asegurar la claridad y colaboración en entornos profesionales.
 
-📁 Estructura de Archivos
+## 📁 Estructura de Archivos
 .
 ├── src/
 │   ├── controllers/       # Lógica de negocio: operaciones CRUD y filtros
