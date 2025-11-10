@@ -1,0 +1,24 @@
+{
+  "name": "proyecto4-reservas-hoteleras",
+  "version": "1.0.0",
+  "description": "API REST para reservas hoteleras",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+  "start": "node main.js",
+  "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Cintia Rivera",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

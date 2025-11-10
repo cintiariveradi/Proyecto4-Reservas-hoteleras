@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "hotel": "Hotel Rosario",
+    "tipo_habitacion": "suite doble",
+    "num_huespedes": 2,
+    "fecha_inicio": "2026-01-15",
+    "fecha_fin": "2026-01-18",
+    "estado": "confirmada"
+  },
+  {
+    "id": 2,
+    "hotel": "Hotel Viña del Mar",
+    "tipo_habitacion": "familiar",
+    "num_huespedes": 4,
+    "fecha_inicio": "2026-02-05",
+    "fecha_fin": "2026-02-10",
+    "estado": "activa"
+  },
+  {
+    "id": 3,
+    "hotel": "Hotel Rosario",
+    "tipo_habitacion": "individual",
+    "num_huespedes": 1,
+    "fecha_inicio": "2026-03-01",
+    "fecha_fin": "2026-03-03",
+    "estado": "pendiente"
+  },
+  {
+    "id": 4,
+    "hotel": "Hotel Viña del Mar",
+    "tipo_habitacion": "suite ejecutiva",
+    "num_huespedes": 2,
+    "fecha_inicio": "2026-04-12",
+    "fecha_fin": "2026-04-16",
+    "estado": "cancelada"
+  },
+  {
+    "id": 5,
+    "hotel": "Hotel Rosario",
+    "tipo_habitacion": "suite presidencial",
+    "num_huespedes": 3,
+    "fecha_inicio": "2026-05-20",
+    "fecha_fin": "2026-05-25",
+    "estado": "finalizada"
+}
+]
