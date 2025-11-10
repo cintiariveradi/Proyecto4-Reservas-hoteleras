@@ -31,6 +31,8 @@ Ejemplo de documentación Swagger (local):
 http://localhost:3000/api-docs
 
 ## 🧩 Endpoints Disponibles
+```
+.
 POST /api/reservas/ .....Crea una nueva reserva.
 GET /api/reservas/ ......Obtiene todas las reservas registradas.
 Permite aplicar filtros por query string:
@@ -49,8 +51,12 @@ GET /api/reservas/fecha/:fechaInicio/:fechaFin → Filtra por rango de fechas.
 GET /api/reservas/tipo/:tipo → Filtra por tipo de habitación.
 GET /api/reservas/estado/:estado → Filtra por estado (activa, cancelada, finalizada).
 GET /api/reservas/huespedes/:cantidad → Filtra por número de huéspedes.
+```
+
 
 ## 🛠 Tecnologías Utilizadas
+```
+.
 Node.js → Entorno de ejecución JavaScript.
 Express.js → Framework para la creación del servidor y manejo de rutas.
 Swagger UI Express → Documentación interactiva de la API (OpenAPI 3.0).
@@ -59,12 +65,13 @@ dotenv → Manejo de variables de entorno de forma segura.
 fs (File System) → Lectura y escritura de archivos JSON locales.
 nodemon → Recarga automática del servidor en modo desarrollo.
 Chatgpt → Correcciones e implementación de Swagger
+```
 
-##👀 Pruebas y Herramientas de Verificación
+## 👀 Pruebas y Herramientas de Verificación
 La API fue probada utilizando Swagger UI, disponible en la ruta
 http://localhost:3000/api-docs,
 donde se ejecutaron los 10 endpoints funcionales y sus filtros asociados.
 
-##🧠 Autoría
+## 🧠 Autoría
 Desarrollado por Cintia Rivera
 Proyecto académico para el módulo de Node.js — Reservas Hoteleras (DWFS).
